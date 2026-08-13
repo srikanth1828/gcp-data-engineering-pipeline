@@ -179,3 +179,33 @@ This project can be extended by adding:
 **Srikanth Gundoju**
 
 Data Engineer | Python | PySpark | GCP | BigQuery | Apache Airflow
+## 📌 Project Status
+
+### Currently Implemented
+
+- ✅ PySpark-based transaction data processing
+- ✅ Data cleaning and transformation
+- ✅ Duplicate and missing value handling
+- ✅ Data quality validation
+- ✅ Calculation of total transaction amount
+- ✅ Local pipeline execution
+- ✅ Automated data quality test using pytest
+- ✅ Project documentation and architecture
+
+### Included as Future Integrations
+
+The following components are included as initial project templates but are not yet configured or executed in a production environment:
+
+- 🔄 Apache Airflow orchestration
+- 🔄 Google BigQuery data loading
+- 🔄 Cloud-based data storage
+- 🔄 Analytics and reporting layer
+
+## 🧪 Testing
+
+The project includes automated testing using `pytest`.
+
+Run the tests with:
+
+```bash
+python -m pytest tests/test_data_quality.py
